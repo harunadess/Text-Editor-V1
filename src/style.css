@@ -1,0 +1,73 @@
+.root
+{
+	-fx-font-size : 11pt;
+	-fx-font-family : "Century Gothic";
+	-fx-base : #1b171c;
+	-fx-highlight-text-fill : #601a60;
+ 	-fx-text-fill : #ffffff;
+	-fx-background-color : #28232a;
+	}
+
+.text-area
+{
+	-fx-font-size : 11pt;
+	-fx-font-family : "Century Gothic";
+	-fx-highlight-fill : #782178;
+  	-fx-highlight-text-fill : #000000;
+ 	-fx-text-fill : #ffffff;
+ 	-fx-base : #1b171c;
+}
+	
+.text-area .content
+{
+	-fx-background-color : #28232a;
+}
+
+.menu:hover
+{
+    -fx-background-color : #782178;
+ 	-fx-highlight-textfill : #000000;
+}
+
+.menu-bar:default
+{
+    -fx-background-color : #782178;
+ 	-fx-highlight-textfill : #000000;
+}
+
+.menu-button:focused 
+{
+ 	/*-fx-skin: "com.sun.javafx.scene.control.skin.MenuSkin";*/
+    -fx-background-color : #782178;
+ 	-fx-highlight-textfill : #000000;
+    -fx-background-insets: 0, 1, 2;
+    -fx-background-radius: 0 6 6 6, 0 5 5 5, 0 4 4 4;
+/*    -fx-padding: 0.666667em 0.083333em 0.666667em 0.083333em;  8 1 8 1 */
+    -fx-padding: 0.333333em 0.083333em 0.666667em 0.083333em; /* 4 1 8 1 */
+}
+
+.context-menu 
+{
+    -fx-skin: "com.sun.javafx.scene.control.skin.ContextMenuSkin";
+    -fx-background-color : #782178;
+ 	-fx-highlight-textfill : #000000;
+    -fx-background-insets: 0, 1, 2;
+    -fx-background-radius: 0 6 6 6, 0 5 5 5, 0 4 4 4;
+/*    -fx-padding: 0.666667em 0.083333em 0.666667em 0.083333em;  8 1 8 1 */
+    -fx-padding: 0.333333em 0.083333em 0.666667em 0.083333em; /* 4 1 8 1 */
+}
+
+.menu-item .label
+ {
+    -fx-text-fill: #ffffff;
+}
+
+.menu-item:focused
+ {
+     -fx-background-color: #782178;
+}
+
+.menu-item:focused .label 
+{
+    -fx-text-fill: #000000;
+}
